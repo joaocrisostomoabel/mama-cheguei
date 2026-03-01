@@ -1,0 +1,83 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "conteudo"
+    label: "Conteúdo do Site"
+    files:
+
+      - label: "🏠 Página Principal"
+        name: "content"
+        file: "content.json"
+        format: json
+        fields:
+
+          - label: "Secção Inicial (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text" }
+              - { label: "Citação", name: "citacao", widget: "string" }
+              - { label: "Autor da citação", name: "citacao_autor", widget: "string" }
+
+          - label: "Secção Validação"
+            name: "validacao"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Parágrafo 1", name: "paragrafo1", widget: "text" }
+              - { label: "Parágrafo 2", name: "paragrafo2", widget: "text" }
+              - { label: "Parágrafo 3", name: "paragrafo3", widget: "text" }
+
+          - label: "Secção Quem Sou Eu"
+            name: "quem"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Parágrafo 1", name: "paragrafo1", widget: "text" }
+              - { label: "Parágrafo 2", name: "paragrafo2", widget: "text" }
+              - { label: "Parágrafo 3", name: "paragrafo3", widget: "text" }
+              - { label: "Anos de experiência (badge)", name: "anos_experiencia", widget: "string" }
+              - { label: "Citação", name: "citacao", widget: "string" }
+              - { label: "Autor da citação", name: "citacao_autor", widget: "string" }
+
+          - label: "Serviços"
+            name: "servicos"
+            widget: "object"
+            fields:
+              - { label: "Visitas — Título", name: "visitas_titulo", widget: "string" }
+              - { label: "Visitas — Subtítulo", name: "visitas_sub", widget: "string" }
+              - { label: "Visitas — Texto", name: "visitas_texto", widget: "text" }
+              - { label: "Grupo — Título", name: "grupo_titulo", widget: "string" }
+              - { label: "Grupo — Subtítulo", name: "grupo_sub", widget: "string" }
+              - { label: "Grupo — Texto", name: "grupo_texto", widget: "text" }
+              - { label: "Baby-sitting — Título", name: "babysitting_titulo", widget: "string" }
+              - { label: "Baby-sitting — Subtítulo", name: "babysitting_sub", widget: "string" }
+              - { label: "Baby-sitting — Texto", name: "babysitting_texto", widget: "text" }
+              - { label: "WhatsApp — Título", name: "whatsapp_titulo", widget: "string" }
+              - { label: "WhatsApp — Subtítulo", name: "whatsapp_sub", widget: "string" }
+              - { label: "WhatsApp — Texto", name: "whatsapp_texto", widget: "text" }
+
+          - label: "Contacto / CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text" }
+              - { label: "Zona de actuação", name: "zona", widget: "string" }
+              - { label: "Número WhatsApp (351XXXXXXXXX)", name: "whatsapp_numero", widget: "string" }
+
+          - label: "Testemunhos"
+            name: "testemunhos"
+            widget: "list"
+            label_singular: "Testemunho"
+            fields:
+              - { label: "Texto (com aspas)", name: "texto", widget: "text" }
+              - { label: "Nome", name: "nome", widget: "string" }
+              - { label: "Descrição (ex: mãe pela primeira vez)", name: "descricao", widget: "string" }
+              - { label: "Emoji", name: "emoji", widget: "string", default: "👶" }
