@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "titulo": "Apoio especializado à maternidade.",
+    "subtitulo": "Não tens de descobrir tudo sozinha. A Mamã Cheguei existe para isso — para estar ao teu lado, no teu espaço, no momento em que mais precisas.",
+    "citacao": "\"Um sonho tornar-se realidade.\"",
+    "citacao_autor": "— Joana, mãe pela primeira vez"
+  },
+  "validacao": {
+    "titulo": "É mais comum do que <em>pensas.</em>",
+    "paragrafo1": "O sistema de saúde manda-te para casa sem te preparar. A internet confunde mais do que ajuda. E a \"aldeia\" que devia criar o bebé contigo desapareceu.",
+    "paragrafo2": "Não é fraqueza. É maternidade real. E preocupares-te já significa que és uma boa mãe.",
+    "paragrafo3": "Agora há apoio. Presencial. Especializado. Em casa."
+  },
+  "quem": {
+    "titulo": "Uma enfermeira.<br/>E também <em>mãe.</em>",
+    "paragrafo1": "Sou enfermeira especializada em neonatologia e pediatria desde 2008. Já acompanhei centenas de famílias nos primeiros dias com um bebé em casa.",
+    "paragrafo2": "Sou mãe de três filhos. Sei o que diz a teoria — e sei o que acontece quando chegas a casa e a teoria não chega.",
+    "paragrafo3": "O que eu faço não é dar-te um manual. É sentar-me contigo, perceber o vosso contexto, e ajudar-te a encontrar a tua confiança — a tua, não a de outra mãe.",
+    "anos_experiencia": "+15",
+    "citacao": "\"Um sonho tornar-se realidade.\"",
+    "citacao_autor": "— Joana, após a primeira visita domiciliária"
+  },
+  "servicos": {
+    "visitas_titulo": "Visitas Domiciliárias",
+    "visitas_sub": "Para quando precisas de alguém ao teu lado, no teu espaço.",
+    "visitas_texto": "Amamentação, cuidados de higiene, cólicas, sono, rotinas e massagens — abordamos o que pesa mais para vocês naquele momento. Em casa, com calma, sem pressa.",
+    "grupo_titulo": "Entre Mães",
+    "grupo_sub": "Para quando precisas de perceber que não estás sozinha.",
+    "grupo_texto": "Um grupo de mães acompanhado por uma enfermeira especializada. Não é uma aula — é um espaço para partilhar, tirar dúvidas, e encontrar pessoas que estão a viver o mesmo que tu. Com workshops mensais sobre temas que realmente importam.",
+    "babysitting_titulo": "Baby-sitting",
+    "babysitting_sub": "Para quando precisas de ser mulher antes de ser mãe.",
+    "babysitting_texto": "Porque uma mãe descansada é uma mãe melhor. Cuidados especializados ao teu bebé até 1 ano, para que possas ter o tempo que também precisas.",
+    "whatsapp_titulo": "Apoio via WhatsApp",
+    "whatsapp_sub": "Para quando a dúvida aparece às 23h.",
+    "whatsapp_texto": "Incluído em todos os serviços — do início ao fim. Porque as dúvidas não marcam hora e tu não deves ficar sozinha com elas."
+  },
+  "cta": {
+    "titulo": "Dá o <em>primeiro passo.</em>",
+    "subtitulo": "Não precisas de ter a pergunta certa. Não precisas de estar no limite. Só precisas de escrever — e eu respondo.",
+    "zona": "📍 Área de atuação: Porto e região",
+    "whatsapp_numero": "351XXXXXXXXX"
+  },
+  "testemunhos": [
+    {
+      "texto": "\"Um sonho tornar-se realidade. Só ela estar lá, tranquila, fez toda a diferença.\"",
+      "nome": "Joana",
+      "descricao": "mãe pela primeira vez",
+      "emoji": "👶"
+    },
+    {
+      "texto": "\"Pensei que por ser o segundo filho ia ser mais fácil. Não estava nada preparada. Ela chegou e tudo ganhou sentido.\"",
+      "nome": "Ana",
+      "descricao": "mãe de dois",
+      "emoji": "🌸"
+    },
+    {
+      "texto": "\"Mais do que resolver as dúvidas, fez-me perceber que eu era capaz. Isso foi o maior presente.\"",
+      "nome": "Mariana",
+      "descricao": "bebé de 6 semanas",
+      "emoji": "🤍"
+    }
+  ]
+}
