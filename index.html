@@ -214,7 +214,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo">
+    <a href="#" class="nav-logo">
     <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="62" cy="22" r="14" stroke="#C8194F" stroke-width="6" fill="none"/>
       <path d="M30 55 Q18 35 35 25 Q52 15 62 36" stroke="#C8194F" stroke-width="6" fill="none" stroke-linecap="round"/>
@@ -247,7 +247,7 @@
     <div class="hero-blob"></div>
     <div class="hero-blob hero-blob-2"></div>
     <div class="hero-center-content">
-      <div class="hero-logo-big">
+            <div class="hero-logo-big">
         <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="62" cy="22" r="14" stroke="white" stroke-width="5" fill="none"/>
           <path d="M30 55 Q18 35 35 25 Q52 15 62 36" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
@@ -561,13 +561,12 @@
       if (grid && c.testemunhos && c.testemunhos.length) {
         const delays = ['', ' d1', ' d2', ' d3'];
         grid.innerHTML = c.testemunhos.map((t, i) =>
-          `<div class="test-card reveal${delays[i] || ''}">
+          `<div class="test-card reveal visible${delays[i] || ''}">
             <div class="test-stars">★★★★★</div>
             <blockquote>${t.texto}</blockquote>
             <cite><div class="test-avatar">${t.emoji}</div>${t.nome} — ${t.descricao}</cite>
           </div>`
         ).join('');
-        checkReveal(); // re-run reveal after injecting new elements
       }
 
     } catch (e) {
