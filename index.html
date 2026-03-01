@@ -70,16 +70,17 @@
     .hero-tag::before { content: ''; width: 6px; height: 6px; background: var(--crimson); border-radius: 50%; }
     h1 { font-family: 'Fraunces', serif; font-size: clamp(2.2rem, 4vw, 3.4rem); line-height: 1.15; font-weight: 400; color: var(--dark); margin-bottom: 1.5rem; letter-spacing: -0.02em; }
     h1 em { font-style: italic; color: var(--crimson); }
-    .hero-sub { font-size: 1.1rem; color: var(--muted); line-height: 1.7; margin-bottom: 2.5rem; max-width: 420px; font-weight: 300; }
+    .hero-sub { font-size: 1.1rem; color: var(--muted); line-height: 1.7; margin-bottom: 2.5rem; font-weight: 300; }
     .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
     .hero-visual { position: relative; height: 100vh; background: var(--crimson); display: flex; align-items: center; justify-content: center; overflow: hidden; }
     .hero-visual::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 50%, rgba(255,255,255,0.08) 0%, transparent 60%); }
     .hero-blob { position: absolute; width: 500px; height: 500px; background: rgba(255,255,255,0.06); border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%; animation: morph 8s ease-in-out infinite; }
     .hero-blob-2 { width: 350px; height: 350px; background: rgba(255,255,255,0.04); border-radius: 30% 70% 40% 60% / 60% 30% 70% 40%; animation: morph 12s ease-in-out infinite reverse; top: 20%; left: 10%; }
-    .hero-center-content { position: relative; z-index: 2; text-align: center; color: white; padding: 2rem; }
+    .hero-center-content { position: relative; z-index: 2; text-align: center; color: white; padding: 2rem; display: flex; flex-direction: column; align-items: center; }
+    .hero-logo-big { display: flex; justify-content: center; width: 100%; }
     .hero-logo-big svg { width: 120px; height: 120px; }
-    .hero-quote { font-family: 'Fraunces', serif; font-style: italic; font-size: clamp(1rem, 4vw, 1.4rem); font-weight: 300; color: rgba(255,255,255,0.9); margin-top: 1.5rem; line-height: 1.5; max-width: 90%; }
-    .hero-quote-attr { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 0.8rem; letter-spacing: 0.05em; }
+    .hero-quote { font-family: 'Fraunces', serif; font-style: italic; font-size: clamp(1rem, 4vw, 1.4rem); font-weight: 300; color: rgba(255,255,255,0.9); margin-top: 1.5rem; line-height: 1.5; max-width: 90%; text-align: center; }
+    .hero-quote-attr { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 0.8rem; letter-spacing: 0.05em; text-align: center; }
     @keyframes morph { 0%,100% { border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%; } 50% { border-radius: 30% 70% 40% 60% / 60% 30% 70% 40%; } }
 
     /* VALIDAÇÃO */
