@@ -549,7 +549,7 @@
         cards[1].querySelector('h3').textContent = c.servicos.grupo_titulo;
         cards[1].querySelector('.servico-subtitle').textContent = c.servicos.grupo_sub;
         const ps = cards[1].querySelectorAll('p:not(.servico-subtitle)');
-        if (ps[0]) ps[0].textContent = c.servicos.grupo_texto;
+        if (ps[0]) ps[0].innerHTML = c.servicos.grupo_texto;
       }
       if (cards[2]) {
         cards[2].querySelector('h3').textContent = c.servicos.babysitting_titulo;
